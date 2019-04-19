@@ -37,7 +37,7 @@ class Login extends Component {
 
         return (
             <Form onSubmit={this.handleSubmit} className="form-signin">
-                <h2 className="form-heading">Pick a user</h2>
+                <h2 className="form-heading">Sign in and Pick a user</h2>
                 <FormGroup>
                     <Label htmlFor="username" className="sr-name">User</Label>
 
